@@ -1,0 +1,9 @@
+{
+   "name": "pvu",
+   "displayName": "Plants Vs Units", 
+   "author": "Antlrr",
+   "description": "oh no",
+   "version": "1.0",
+   "minGameVersion": "130",
+   "hidden": "false"
+}
