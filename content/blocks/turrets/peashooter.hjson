@@ -2,6 +2,7 @@ type: PowerTurret
 name: Peashooter
 description: "They shoot peas at enemies."
 rotateSpeed: 2
+squareSprite: false
 health: 120
 range: 72
 reloadTime: 60
@@ -18,6 +19,7 @@ shootType: {
    length: 5
    speed: 1.5
    lifetime: 48
+   damage: 18.75
 }
 category: turret
 requirements: [
