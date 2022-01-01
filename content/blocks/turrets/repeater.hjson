@@ -11,7 +11,8 @@ shootEffect: none
 smokeEffect: none
 powerUse: 3
 shots: 2
-shotDelay: 6
+burstSpacing: 4
+spread: 0
 shootType: {
    type: BasicBulletType
    sprite: circle-bullet
