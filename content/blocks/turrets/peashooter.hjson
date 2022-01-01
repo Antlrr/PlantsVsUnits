@@ -2,12 +2,12 @@ type: PowerTurret
 name: Peashooter
 description: "They shoot peas at enemies."
 health: 120
-range: 47
+range: 72
 reloadTime: 60
-recoilAmount: -0.8
+recoilAmount: 0.8
 shootEffect: none
 smokeEffect: none
-powerUse: 0
+powerUse: 3
 shootType: {
    type: BasicBulletType
    sprite: circle-bullet
@@ -15,8 +15,8 @@ shootType: {
    frontColor: D7F261
    width: 5
    length: 5
-   speed: 1.50
-   lifetime: 40
+   speed: 1.5
+   lifetime: 48
 }
 category: turret
 requirements: [
