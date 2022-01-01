@@ -1,0 +1,29 @@
+type: PowerTurret
+name: Repeater
+description: "Repeaters fire two peas at one time."
+rotateSpeed: 3
+squareSprite: false
+health: 120
+range: 72
+reloadTime: 60
+recoilAmount: 0.8
+shootEffect: none
+smokeEffect: none
+powerUse: 3
+shots: 2
+shotDelay: 6
+shootType: {
+   type: BasicBulletType
+   sprite: circle-bullet
+   backColor: D7F261
+   frontColor: D7F261
+   width: 5
+   length: 5
+   speed: 1.5
+   lifetime: 48
+   damage: 18.75
+}
+category: turret
+requirements: [
+   copper/200
+]
