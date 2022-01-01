@@ -1,6 +1,7 @@
 type: PowerTurret
 name: Peashooter
 description: "They shoot peas at enemies."
+rotateSpeed: 2
 health: 120
 range: 72
 reloadTime: 60
