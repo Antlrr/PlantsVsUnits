@@ -1,0 +1,25 @@
+type: ItemTurret
+name: Peashooter
+description: "They shoot peas at enemies."
+health: 120
+range: 47
+reloadTime: 40
+recoilAmount: -0.8
+shootEffect: none
+smokeEffect: none
+ammoTypes: {
+   spore-pod: {
+      type: BasicBulletType
+      sprite: circle-bullet
+      backColor: D7F261
+      frontColor: D7F261
+      width: 5
+      length: 5
+      speed: 1.50
+      lifetime: 40
+   }
+}
+category: turret
+requirements: [
+   copper/100
+]
