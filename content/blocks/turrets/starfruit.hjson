@@ -6,15 +6,17 @@ squareSprite: false
 health: 120
 range: 72
 reloadTime: 60
-recoilAmount: 0.8
+recoilAmount: 0
 shootEffect: none
 smokeEffect: none
 powerUse: 3
 shots: 5
 spread: 80
+rotateSpeed: 0
+shootLength: 0
 shootType: {
    type: BasicBulletType
-   sprite: star-bullet
+   sprite: pvu-tar-bullet
    backColor: F0DF26
    frontColor: F0DF26
    width: 4
