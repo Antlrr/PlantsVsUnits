@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Starfruit
-description: "Starfruits shoots stars in 5 directions"
+description: "Starfruits shoots homing stars in 5 directions"
 rotateSpeed: 3
 squareSprite: false
 health: 120
@@ -15,6 +15,7 @@ shootLength: 0
 shootCone: 360
 shootType: {
    sprite: pvu-star-bullet
+   homingPower: 0.2
    shootEffect: none
    smokeEffect: none
    ammoUseEffect: none
