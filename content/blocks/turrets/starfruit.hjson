@@ -7,9 +7,6 @@ health: 120
 range: 96
 reloadTime: 60
 recoilAmount: 0
-shootEffect: none
-smokeEffect: none
-ammoUseEffect: none
 powerUse: 3
 shots: 5
 spread: 80
@@ -17,7 +14,9 @@ rotateSpeed: 0
 shootLength: 0
 shootCone: 360
 shootType: {
+   shootEffect: none
    smokeEffect: none
+   ammoUseEffect: none
    type: BasicBulletType
    sprite: PvU-star-bullet
    backColor: F0DF26
