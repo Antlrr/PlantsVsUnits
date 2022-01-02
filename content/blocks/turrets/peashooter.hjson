@@ -9,6 +9,7 @@ reloadTime: 60
 recoilAmount: 0.8
 shootEffect: none
 smokeEffect: none
+ammoUseEffect: none
 powerUse: 3
 shootType: {
    type: BasicBulletType
