@@ -15,7 +15,7 @@ shootLength: 0
 shootCone: 360
 shootType: {
    sprite: pvu-star-bullet
-   homingPower: 0.2
+   homingPower: 0.05
    shootEffect: none
    smokeEffect: none
    ammoUseEffect: none
