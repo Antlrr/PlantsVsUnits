@@ -1,6 +1,6 @@
 type: PowerTurret
 name: Peashooter
-description: "They shoot peas at enemies."
+description: "Peashooters shoot peas at enemies."
 rotateSpeed: 3
 squareSprite: false
 health: 120
