@@ -9,7 +9,7 @@ reloadTime: 60
 recoilAmount: 0
 powerUse: 3
 shots: 5
-spread: 80
+spread: 90
 rotateSpeed: 0
 shootLength: 0
 shootCone: 360
@@ -19,6 +19,8 @@ shootType: {
    ammoUseEffect: none
    type: BasicBulletType
    sprite: PvU-star-bullet
+   shrinkX: 0
+   shrinkY: 0
    backColor: F0DF26
    frontColor: F0DF26
    width: 4
