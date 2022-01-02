@@ -11,6 +11,7 @@ shootEffect: none
 smokeEffect: none
 powerUse: 3
 shots: 5
+spread: 80
 shootType: {
    type: BasicBulletType
    sprite: star-bullet
