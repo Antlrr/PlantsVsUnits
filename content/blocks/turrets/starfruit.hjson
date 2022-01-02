@@ -14,9 +14,10 @@ shots: 5
 spread: 80
 rotateSpeed: 0
 shootLength: 0
+shootCone: 360
 shootType: {
    type: BasicBulletType
-   sprite: pvu-tar-bullet
+   sprite: pvu-star-bullet
    backColor: F0DF26
    frontColor: F0DF26
    width: 4
