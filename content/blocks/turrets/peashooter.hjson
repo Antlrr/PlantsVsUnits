@@ -14,6 +14,8 @@ shootType: {
    ammoUseEffect: none
    type: BasicBulletType
    sprite: circle-bullet
+   shrinkX: 0
+   shrinkY: 0
    backColor: D7F261
    frontColor: D7F261
    width: 4
