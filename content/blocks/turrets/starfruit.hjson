@@ -23,8 +23,8 @@ shootType: {
    shrinkY: 0
    backColor: F0DF26
    frontColor: F0DF26
-   width: 4
-   height: 4
+   width: 6
+   height: 6
    speed: 1.5
    lifetime: 64
    damage: 18.75
