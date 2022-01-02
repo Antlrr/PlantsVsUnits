@@ -1,5 +1,5 @@
 type: PowerTurret
-name: Peashooter
+name: Starfruit
 description: "Starfruits shoots stars in 5 directions"
 rotateSpeed: 3
 squareSprite: false
