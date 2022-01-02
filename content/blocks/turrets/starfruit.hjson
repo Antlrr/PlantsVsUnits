@@ -14,11 +14,11 @@ rotateSpeed: 0
 shootLength: 0
 shootCone: 360
 shootType: {
+   sprite: pvu-star-bullet
    shootEffect: none
    smokeEffect: none
    ammoUseEffect: none
    type: BasicBulletType
-   sprite: PvU-star-bullet
    shrinkX: 0
    shrinkY: 0
    backColor: F0DF26
