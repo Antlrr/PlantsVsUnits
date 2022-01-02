@@ -7,11 +7,11 @@ health: 120
 range: 72
 reloadTime: 60
 recoilAmount: 0.8
-shootEffect: none
-smokeEffect: none
-ammoUseEffect: none
 powerUse: 3
 shootType: {
+   shootEffect: none
+   smokeEffect: none
+   ammoUseEffect: none
    type: BasicBulletType
    sprite: circle-bullet
    backColor: D7F261
