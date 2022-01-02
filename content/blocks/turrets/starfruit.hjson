@@ -4,7 +4,7 @@ description: "Starfruits shoots stars in 5 directions"
 rotateSpeed: 3
 squareSprite: false
 health: 120
-range: 72
+range: 96
 reloadTime: 60
 recoilAmount: 0
 shootEffect: none
