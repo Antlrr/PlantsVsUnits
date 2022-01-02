@@ -1,0 +1,28 @@
+type: PowerTurret
+name: Peashooter
+description: "Starfruits shoots stars in 5 directions"
+rotateSpeed: 3
+squareSprite: false
+health: 120
+range: 72
+reloadTime: 60
+recoilAmount: 0.8
+shootEffect: none
+smokeEffect: none
+powerUse: 3
+shots: 5
+shootType: {
+   type: BasicBulletType
+   sprite: star-bullet
+   backColor: F0DF26
+   frontColor: F0DF26
+   width: 4
+   length: 4
+   speed: 1.5
+   lifetime: 64
+   damage: 18.75
+}
+category: turret
+requirements: [
+   copper/150
+]
