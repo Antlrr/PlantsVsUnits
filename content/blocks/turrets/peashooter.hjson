@@ -22,7 +22,7 @@ shootType: {
    height: 4
    speed: 1.5
    lifetime: 48
-   damage: 18.75
+   damage: 15
 }
 category: turret
 requirements: [
