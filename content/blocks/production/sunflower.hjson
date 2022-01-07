@@ -1,9 +1,11 @@
 type: GenericCrafter
+name: Sunflower
+description: Sunflowers are essential for you to produce sun.
 size: 2
 hasLiquids: true
 liquidCapacity: 32
 craftTime: 42
-craftEffect: unitSpirit
+craftEffect: smeltSmoke
 updateEffect: unitCapKill
 drawer: {
    type: drawSmelter
