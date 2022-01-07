@@ -5,7 +5,7 @@ size: 2
 hasLiquids: true
 liquidCapacity: 32
 craftTime: 42
-craftEffect: smeltSmoke
+craftEffect: unitCapKill
 updateEffect: unitCapKill
 drawer: {
    type: drawSmelter
