@@ -1,0 +1,28 @@
+type: GenericCrafter
+size: 2
+hasLiquids: true
+liquidCapacity: 32
+craftTime: 42
+craftEffect: unitSpirit
+updateEffect: unitCapKill
+drawer: {
+   type: drawSmelter
+   flameColor: FEFFAE
+}
+outputItem: sun/2
+consumes: {
+  power: 1.6
+  liquid: {
+    liquid: water
+    amount: 0.5
+  }
+}
+category: crafting
+research: {
+  parent: kiln
+}
+requirements: [
+  copper/120
+  lead/95
+  graphite/40
+]
