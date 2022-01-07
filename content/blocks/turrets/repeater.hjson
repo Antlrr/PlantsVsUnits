@@ -9,7 +9,7 @@ reloadTime: 60
 recoilAmount: 0.8
 powerUse: 3
 shots: 2
-burstSpacing: 5
+burstSpacing: 8
 spread: 0
 shootType: {
    shootEffect: none
@@ -25,7 +25,7 @@ shootType: {
    height: 4
    speed: 1.5
    lifetime: 48
-   damage: 18.75
+   damage: 15
 }
 category: turret
 requirements: [
