@@ -29,5 +29,5 @@ shootType: {
 }
 category: turret
 requirements: [
-   copper/200
+   sun/200
 ]
