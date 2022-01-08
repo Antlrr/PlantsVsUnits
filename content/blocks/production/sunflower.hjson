@@ -11,9 +11,9 @@ craftEffect: {
        {
        type: ParticleEffect
        region: pvu-sun
-       particles: 1
+       particles: 2
        length: 16
-       sizeFrom: 2
+       sizeFrom: 3
        sizeTo: 2
        colorFrom: feffae
        colorTo: feffae00
