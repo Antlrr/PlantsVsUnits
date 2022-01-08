@@ -17,6 +17,7 @@ craftEffect: {
        sizeTo: 2
        colorFrom: feffae
        colorTo: feffae00
+       spin: 0.1
        interp: reverse
         }
     ]
