@@ -12,7 +12,9 @@ craftEffect: {
        type: ParticleEffect
        region: pvu-sun
        particles: 1
-       length: 10
+       length: 16
+       sizeFrom: 2
+       sizeTo: 2
        colorFrom: feffae
        colorTo: feffae00
        interp: reverse
