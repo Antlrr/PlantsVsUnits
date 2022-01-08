@@ -5,8 +5,21 @@ size: 2
 hasLiquids: true
 liquidCapacity: 32
 craftTime: 42
-craftEffect: unitCapKill
-updateEffect: unitCapKill
+craftEffect: {
+    type: MultiEffect
+    effects: [
+       {
+       type: ParticleEffect
+       region: pvu-sun
+       particles: 1
+       length: 10
+       colorFrom: feffae
+       colorTo: feffae00
+       interp: reverse
+        }
+    ]
+}
+updateEffect: none
 drawer: {
    type: drawSmelter
    flameColor: FEFFAE
