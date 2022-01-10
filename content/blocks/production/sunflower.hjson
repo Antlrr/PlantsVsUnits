@@ -26,11 +26,12 @@ updateEffect: {
    type: ParticleEffect
    line: true
    lenFrom: 0
-   lenTo: 3
-   strokeFrom: 1
-   strokeTo: 1
+   lenTo: 4
+   strokeFrom: 0.6
+   strokeTo: 0.6
    colorFrom: feffae
    colorTo: feffae00
+   length: 10
 }
 drawer: {
    type: drawSmelter
