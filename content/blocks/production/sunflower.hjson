@@ -41,7 +41,7 @@ consumes: {
   power: 0.60
   liquid: {
     liquid: water
-    amount: 0.5
+    amount: 0.11
   }
 }
 category: crafting
