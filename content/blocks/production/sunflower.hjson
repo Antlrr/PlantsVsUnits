@@ -22,14 +22,23 @@ craftEffect: {
         }
     ]
 }
-updateEffect: none
+updateEffect: {
+   type: ParticleEffect
+   line: true
+   lenFrom: 0
+   lenTo: 3
+   strokeFrom: 1
+   strokeTo: 1
+   colorFrom: feffae
+   colorTo: feffae00
+}
 drawer: {
    type: drawSmelter
    flameColor: FEFFAE
 }
 outputItem: sun/2
 consumes: {
-  power: 1.6
+  power: 0.60
   liquid: {
     liquid: water
     amount: 0.5
