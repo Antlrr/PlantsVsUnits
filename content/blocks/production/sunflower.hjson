@@ -52,5 +52,5 @@ research: {
 requirements: [
   copper/120
   lead/95
-  graphite/40
+  graphite/20
 ]
