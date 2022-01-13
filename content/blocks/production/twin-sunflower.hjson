@@ -1,0 +1,63 @@
+type: GenericCrafter
+name: Sunflower
+description: Sunflowers are essential for you to produce sun.
+size: 2
+hasLiquids: true
+liquidCapacity: 32
+craftTime: 42
+craftEffect: {
+    type: MultiEffect
+    effects: [
+       {
+       type: ParticleEffect
+       region: pvu-sun
+       particles: 2
+       length: 24
+       sizeFrom: 3
+       sizeTo: 2
+       colorFrom: feffae
+       colorTo: feffae00
+       spin: 0.1
+       interp: reverse
+       }
+       type: ParticleEffect
+       length: 0
+       region: pvu-twin-sunflower-top
+       sizeFrom: 4
+       sizeTo: 4
+       particles: 1
+   ]
+}
+updateEffect: {
+   type: ParticleEffect
+   line: true
+   lenFrom: 0
+   lenTo: 4
+   strokeFrom: 0.6
+   strokeTo: 0.6
+   colorFrom: feffae
+   colorTo: feffae00
+   length: 10
+}
+drawer: {
+   type: drawSmelter
+   flameColor: FEFFAE
+}
+outputItem: sun/4
+consumes: {
+  power: 1.5
+  liquid: {
+    liquid: water
+    amount: 1.2
+  }
+}
+category: crafting
+research: {
+  parent: sunflower
+}
+requirements: [
+  copper/220
+  lead/120
+  graphite/80
+  sun/150
+]
