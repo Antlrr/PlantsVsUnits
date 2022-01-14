@@ -21,6 +21,7 @@ craftEffect: {
       interp: reverse
       }
       {
+      lifetime: 50
       type: ParticleEffect
       length: 0
       region: pvu-twin-glow
