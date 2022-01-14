@@ -20,13 +20,15 @@ craftEffect: {
        spin: 0.1
        interp: reverse
        }
+       {
        type: ParticleEffect
        length: 0
        region: pvu-twin-sunflower-top
        sizeFrom: 4
        sizeTo: 4
        particles: 1
-   ]
+       }
+    ]
 }
 updateEffect: {
    type: ParticleEffect
