@@ -1,6 +1,6 @@
 type: GenericCrafter
 name: Twin Sunflower
-description: Sunflowers are essential for you to produce sun.
+description: Twin Sunflowers give twice as much sun as a normal sunflower..
 size: 3
 hasLiquids: true
 liquidCapacity: 64
