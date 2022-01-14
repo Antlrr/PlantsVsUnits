@@ -4,7 +4,7 @@ description: Twin Sunflowers give twice as much sun as a normal sunflower..
 size: 3
 hasLiquids: true
 liquidCapacity: 64
-craftTime: 42
+craftTime: 62
 craftEffect: {
    type: MultiEffect
    effects: [
@@ -32,11 +32,11 @@ craftEffect: {
       {
       type: ParticleEffect
       length: 10
-      particles: 26
+      particles: 48
       colorFrom: feffae
       colorTo: feffae00
-      sizeFrom: 1
-      sizeTo: 1
+      sizeFrom: 0.70
+      sizeTo: 0.70
       interp: reverse
       }
    ]
@@ -58,10 +58,10 @@ drawer: {
 }
 outputItem: sun/4
 consumes: {
-  power: 1.5
+  power: 1.62
   liquid: {
     liquid: water
-    amount: 1.2
+    amount: 0.22
   }
 }
 category: crafting
