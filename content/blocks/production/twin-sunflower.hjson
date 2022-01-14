@@ -24,8 +24,8 @@ craftEffect: {
        type: ParticleEffect
        length: 0
        region: pvu-twin-sunflower-top
-       sizeFrom: 10
-       sizeTo: 4
+       sizeFrom: 12
+       sizeTo: 12
        particles: 1
        }
     ]
