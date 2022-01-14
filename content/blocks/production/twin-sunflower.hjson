@@ -27,11 +27,12 @@ craftEffect: {
       sizeFrom: 12
       sizeTo: 12
       particles: 1
+      layer: 100
       }
       {
       type: ParticleEffect
       length: 10
-      particles: 12
+      particles: 26
       colorFrom: feffae
       colorTo: feffae00
       sizeFrom: 1
