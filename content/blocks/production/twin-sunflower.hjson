@@ -32,10 +32,10 @@ craftEffect: {
       type: ParticleEffect
       length: 10
       particles: 12
-      colorFrom: feffae00
-      colorTo: feffae
-      sizeFrom: 4
-      sizeTo: 4
+      colorFrom: feffae
+      colorTo: feffae00
+      sizeFrom: 1
+      sizeTo: 1
       interp: reverse
       }
    ]
