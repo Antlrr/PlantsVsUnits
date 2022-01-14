@@ -1,9 +1,9 @@
 type: GenericCrafter
 name: Sunflower
 description: Sunflowers are essential for you to produce sun.
-size: 2
+size: 3
 hasLiquids: true
-liquidCapacity: 32
+liquidCapacity: 64
 craftTime: 42
 craftEffect: {
     type: MultiEffect
