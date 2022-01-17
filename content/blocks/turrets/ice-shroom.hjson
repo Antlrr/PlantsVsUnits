@@ -3,7 +3,7 @@ name: Ice Shroom
 description: "Ice Shrooms temporary immobilize all enemies in a radius."
 rotateSpeed: 3
 squareSprite: false
-health: 120
+health: 358
 range: 72
 reloadTime: 20
 recoilAmount: 0.8
