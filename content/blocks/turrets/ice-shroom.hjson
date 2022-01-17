@@ -25,7 +25,7 @@ shootType: {
    splashDamage: 15
    splashDamageRadius: 72
    collidesAir: false
-   status: unmoving
+   status: pvu-frozen
    statusDuration: 720
 }
 category: turret
