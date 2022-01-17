@@ -2,12 +2,14 @@ speedMultiplier: 0
 reloadMultiplier: 0
 effect: {
    type: ParticleEffect
+   particles: 1
+   length: 0
    sizeFrom: 4
    sizeTo: 4
    spin: 0.1
    lightOpacity: 0
-   colorFrom: 089FEE30
-   colorTo: 089FEE30
+   colorFrom: 089FEE50
+   colorTo: 089FEE50
    region: pvu-ice-shroom
 }
    
