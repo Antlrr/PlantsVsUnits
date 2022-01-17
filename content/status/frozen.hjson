@@ -3,9 +3,9 @@ reloadMultiplier: 0
 effect: {
    type: ParticleEffect
    particles: 2
-   length: 3
-   sizeFrom: 5
-   sizeTo: 5
+   length: 5
+   sizeFrom: 3
+   sizeTo: 3
    spin: 0.1
    colorFrom: 089FEE90
    colorTo: 089FEE90
