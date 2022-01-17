@@ -11,6 +11,7 @@ powerUse: 2
 size: 2
 rotateSpeed: 0
 shootCone: 360
+shootLength: 0
 shootType: {
    killShooter: true
    shootEffect: {
@@ -25,7 +26,7 @@ shootType: {
          }
          {
          type: ParticleEffect
-         length: 60
+         length: 20
          region: circle
          sizeFrom: 6
          sizeTo: 0
