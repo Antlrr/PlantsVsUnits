@@ -10,6 +10,7 @@ recoilAmount: 0.8
 powerUse: 2
 size: 2
 shootType: {
+   killShooter: true
    shootEffect: none
    smokeEffect: none
    ammoUseEffect: none
