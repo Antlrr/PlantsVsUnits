@@ -1,6 +1,6 @@
 type: PowerTurret
-name: Peashooter
-description: "Peashooters shoot peas at enemies."
+name: Ice Shroom
+description: "Ice Shrooms temporary immobilize all enemies in a radius."
 rotateSpeed: 3
 squareSprite: false
 health: 120
@@ -8,6 +8,7 @@ range: 72
 reloadTime: 20
 recoilAmount: 0.8
 powerUse: 2
+size: 2
 shootType: {
    shootEffect: none
    smokeEffect: none
