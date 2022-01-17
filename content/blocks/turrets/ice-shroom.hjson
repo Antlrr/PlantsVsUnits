@@ -24,6 +24,9 @@ shootType: {
    damage: 0
    splashDamage: 1
    splashDamageRadius: 72
+   collidesAir: false
+   status: unmoving
+   statusDuration: 50
 }
 category: turret
 requirements: [
