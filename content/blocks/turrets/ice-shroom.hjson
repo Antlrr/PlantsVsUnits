@@ -13,7 +13,28 @@ rotateSpeed: 0
 shootCone: 360
 shootType: {
    killShooter: true
-   shootEffect: none
+   shootEffect: {
+      type: MultiEffect
+      effects: [
+         {
+         type: WaveEffect
+         sizeFrom: 0
+         sizeTo: 72
+         colorFrom: 089FEE
+         colorTo: 089FEE90
+         }
+         {
+         type: ParticleEffect
+         length: 60
+         region: circle
+         sizeFrom: 6
+         sizeTo: 0
+         interp: pow10Out
+         colorFrom: 089FEE90
+         colorTo: 089FEE90
+         }
+      ]
+   }
    smokeEffect: none
    ammoUseEffect: none
    type: BulletType
