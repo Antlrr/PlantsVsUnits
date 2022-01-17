@@ -4,12 +4,11 @@ effect: {
    type: ParticleEffect
    particles: 1
    length: 0
-   sizeFrom: 4
-   sizeTo: 4
+   sizeFrom: 5
+   sizeTo: 5
    spin: 0.1
-   lightOpacity: 0
-   colorFrom: 089FEE50
-   colorTo: 089FEE50
+   colorFrom: 089FEE60
+   colorTo: 089FEE60
    region: pvu-ice-shroom
 }
    
