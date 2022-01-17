@@ -33,6 +33,7 @@ shootType: {
          interp: pow10Out
          colorFrom: 089FEE90
          colorTo: 089FEE90
+         cone: 360
          }
       ]
    }
