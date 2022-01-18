@@ -26,10 +26,10 @@ shootType: {
          }
          {
          type: ParticleEffect
-         lifetime: 120
-         length: 20
+         lifetime: 320
+         length: 30
          region: circle
-         sizeFrom: 6
+         sizeFrom: 10
          sizeTo: 0
          interp: pow10Out
          colorFrom: 089FEE90
