@@ -26,6 +26,7 @@ shootType: {
          }
          {
          type: ParticleEffect
+         lifetime: 120
          length: 20
          region: circle
          sizeFrom: 6
