@@ -12,7 +12,7 @@ size: 2
 rotateSpeed: 0
 shootCone: 360
 shootLength: 0
-shootY: -2
+shootY: -4
 shootType: {
    killShooter: true
    shootEffect: {
@@ -20,19 +20,23 @@ shootType: {
       effects: [
          {
          type: WaveEffect
+         lifetime: 25
          sizeFrom: 0
          sizeTo: 72
+         strokeTo: 0
          colorFrom: 089FEE
          colorTo: 089FEE90
          }
          {
          type: ParticleEffect
          lifetime: 320
-         length: 30
+         length: 40
+         baseLength: 6
          region: circle
          sizeFrom: 10
          sizeTo: 0
          interp: pow10Out
+         sizeInterp: pow10In
          colorFrom: 089FEE90
          colorTo: 089FEE90
          cone: 360
@@ -42,8 +46,6 @@ shootType: {
    smokeEffect: none
    ammoUseEffect: none
    type: BulletType
-   width: 0
-   height: 0
    speed: 0
    lifetime: 1
    damage: 0
