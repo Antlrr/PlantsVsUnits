@@ -3,12 +3,12 @@ reloadMultiplier: 0
 effect: {
    type: ParticleEffect
    particles: 2
-   length: 5
+   length: 10
    sizeFrom: 3
    sizeTo: 3
-   spin: 0.1
-   colorFrom: 089FEE90
-   colorTo: 089FEE90
+   colorFrom: 089FEE55
+   colorTo: 089FEE00
+   interp:  pow5Out
    region: circle
 }
    
