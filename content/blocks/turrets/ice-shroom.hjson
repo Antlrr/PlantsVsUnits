@@ -11,7 +11,8 @@ size: 2
 rotateSpeed: 0
 shootCone: 360
 shootLength: 0
-shootY: -5
+shootY: -2
+shootSound: pulseBlast
 shootType: {
    killShooter: true
    shootEffect: {
@@ -30,12 +31,13 @@ shootType: {
          type: ParticleEffect
          lifetime: 320
          length: 58
+         particles: 10
          baseLength: 0
          region: circle
          sizeFrom: 8
          sizeTo: 0
-         interp: pow10In
-         sizeInterp: pow10Out
+         interp: pow10Out
+         sizeInterp: pow10In
          colorFrom: 089FEE90
          colorTo: 089FEE90
          cone: 360
