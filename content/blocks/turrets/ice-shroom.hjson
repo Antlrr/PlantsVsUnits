@@ -45,12 +45,12 @@ shootType: {
          }
          {
          type: ParticleEffect
-         lifetime: 120
-         length: 42
+         lifetime: 90
+         length: 48
          particles: 12
          baseLength: 0
          region: circle
-         sizeFrom: 5
+         sizeFrom: 6
          sizeTo: 0
          interp: pow10Out
          sizeInterp: pow10In
