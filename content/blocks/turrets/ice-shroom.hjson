@@ -11,7 +11,7 @@ size: 2
 rotateSpeed: 0
 shootCone: 360
 shootLength: 0
-shootY: -8
+shootY: -4
 shootType: {
    killShooter: true
    shootEffect: {
@@ -29,10 +29,10 @@ shootType: {
          {
          type: ParticleEffect
          lifetime: 320
-         length: 40
-         baseLength: 6
+         length: 58
+         baseLength: 0
          region: circle
-         sizeFrom: 10
+         sizeFrom: 8
          sizeTo: 0
          interp: pow10In
          sizeInterp: pow10Out
