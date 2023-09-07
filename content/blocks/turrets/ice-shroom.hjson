@@ -29,9 +29,9 @@ shootType: {
          }
          {
          type: ParticleEffect
-         lifetime: 320
-         length: 58
-         particles: 10
+         lifetime: 200
+         length: 50
+         particles: 13
          baseLength: 0
          region: circle
          sizeFrom: 8
@@ -41,6 +41,7 @@ shootType: {
          colorFrom: 089FEE90
          colorTo: 089FEE90
          cone: 360
+         layer: 110
          }
       ]
    }
