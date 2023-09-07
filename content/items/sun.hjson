@@ -1,5 +1,5 @@
 name: Sun
 description: there is a unit near your base.
-cost: 1
+cost: 5
 color: feffae
-charge: 1
+charge: 2
