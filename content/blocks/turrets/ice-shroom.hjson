@@ -7,7 +7,7 @@ range: 72
 reloadTime: 1
 recoilAmount: 0.8
 powerUse: 2
-size: 2
+size: 2 
 rotateSpeed: 0
 shootCone: 360
 shootLength: 0
@@ -29,7 +29,7 @@ shootType: {
          }
          {
          type: ParticleEffect
-         lifetime: 200
+         lifetime: 120
          length: 50
          particles: 13
          baseLength: 0
@@ -40,6 +40,22 @@ shootType: {
          sizeInterp: pow10In
          colorFrom: 089FEE90
          colorTo: 089FEE90
+         cone: 360
+         layer: 110
+         }
+         {
+         type: ParticleEffect
+         lifetime: 120
+         length: 42
+         particles: 12
+         baseLength: 0
+         region: circle
+         sizeFrom: 5
+         sizeTo: 0
+         interp: pow10Out
+         sizeInterp: pow10In
+         colorFrom: 7dcdff90
+         colorTo: 7dcdff90
          cone: 360
          layer: 110
          }
