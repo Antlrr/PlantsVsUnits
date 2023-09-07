@@ -1,4 +1,6 @@
-type: GenericCrafter
+type: AttributeCrafter
+attribute: light
+boostScale: 1.2
 name: Sunflower
 description: Sunflowers are essential for you to produce sun.
 size: 2
