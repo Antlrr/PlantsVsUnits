@@ -6,6 +6,7 @@ effect: {
    length: 10
    sizeFrom: 3
    sizeTo: 3
+   lifetime: 30
    colorFrom: 089FEE55
    colorTo: 089FEE00
    interp:  pow5Out
