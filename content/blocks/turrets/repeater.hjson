@@ -5,7 +5,7 @@ rotateSpeed: 3
 squareSprite: false
 health: 120
 range: 72
-reload: 60
+reload: 30
 recoil: 0.8
 shoot: {
    shots: 2
