@@ -6,7 +6,6 @@ health: 358
 range: 72
 reloadTime: 1
 recoilAmount: 0.8
-hasPower: false
 size: 2 
 rotateSpeed: 0
 shootCone: 360
