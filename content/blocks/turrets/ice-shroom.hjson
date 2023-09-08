@@ -1,4 +1,4 @@
-type: PowerTurret
+type: BaseTurret
 name: Ice Shroom
 description: "Ice Shrooms temporary immobilizes all enemies in a radius."
 squareSprite: false
