@@ -1,4 +1,5 @@
 type: PowerTurret
+hasPower: false
 name: Repeater
 description: "Repeaters fire two peas at one time."
 rotateSpeed: 3
