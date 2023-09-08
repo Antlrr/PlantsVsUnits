@@ -6,7 +6,7 @@ health: 358
 range: 72
 reloadTime: 1
 recoilAmount: 0.8
-powerUse: 2
+hasPower: false
 size: 2 
 rotateSpeed: 0
 shootCone: 360
@@ -67,8 +67,8 @@ shootType: {
    speed: 0
    lifetime: 1
    damage: 5
-   width: 72
-   height: 72
+   width: 78
+   height: 78
    collidesAir: false
    status: pvu-frozen
    statusDuration: 720
