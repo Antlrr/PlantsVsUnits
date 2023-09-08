@@ -2,7 +2,7 @@ type: PowerTurret
 name: Ice Shroom
 description: "Ice Shrooms temporary immobilizes all enemies in a radius."
 squareSprite: false
-health: 358
+health: 460
 buildCostMultiplier: 0.3
 range: 60
 reload: 1
