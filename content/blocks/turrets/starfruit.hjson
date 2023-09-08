@@ -9,7 +9,7 @@ reload: 30
 recoil: 0
 shoot: {
    shots: 5
-   shootSpread: 72
+   shotSpread: 72
    }  
 rotateSpeed: 0
 shootCone: 360
