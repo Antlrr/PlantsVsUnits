@@ -3,7 +3,7 @@ name: Peashooter
 description: "Peashooters shoot peas at enemies."
 rotateSpeed: 3
 squareSprite: false
-health: 120
+health: 320
 range: 108
 reload: 30
 recoil: 0.8
