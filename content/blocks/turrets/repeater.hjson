@@ -12,6 +12,9 @@ shoot: {
    shots: 2
    shotDelay: 8
    }
+consumes: {
+   power: 3.6
+   }
 shootType: {
    shootEffect: none
    smokeEffect: none
