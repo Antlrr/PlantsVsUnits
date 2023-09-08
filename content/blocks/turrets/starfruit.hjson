@@ -8,8 +8,9 @@ range: 96
 reload: 30
 recoil: 0
 shoot: {
+   type: ShootSpread
    shots: 5
-   shotSpread: 72
+   spread: 72
    }  
 rotateSpeed: 0
 shootCone: 360
