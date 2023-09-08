@@ -66,10 +66,10 @@ shootType: {
    type: BulletType
    speed: 0
    lifetime: 1
-   damage: 0
-   splashDamage: 5
-   splashDamageRadius: 92
-   collidesAir: true
+   damage: 5
+   width: 72
+   height: 72
+   collidesAir: false
    status: pvu-frozen
    statusDuration: 720
 }
