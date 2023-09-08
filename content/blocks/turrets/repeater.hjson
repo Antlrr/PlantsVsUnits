@@ -9,7 +9,7 @@ reload: 60
 recoil: 0.8
 shoot: {
    shots: 2
-   burstSpacing: 8
+   shotDelay: 8
    }
 shootType: {
    shootEffect: none
