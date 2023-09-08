@@ -1,4 +1,4 @@
-type: BaseTurret
+type: PowerTurret
 name: Ice Shroom
 description: "Ice Shrooms temporary immobilizes all enemies in a radius."
 squareSprite: false
@@ -12,6 +12,9 @@ shootCone: 360
 shootLength: 0
 shootY: -2
 shootSound: pulseBlast
+consumes: {
+   power: 1
+   }
 shootType: {
    killShooter: true
    shootEffect: {
