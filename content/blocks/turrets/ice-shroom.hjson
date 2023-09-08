@@ -3,7 +3,8 @@ name: Ice Shroom
 description: "Ice Shrooms temporary immobilizes all enemies in a radius."
 squareSprite: false
 health: 358
-range: 72
+costMultiplier: 0.3
+range: 60
 reload: 1
 recoil: 0.8
 size: 2 
@@ -23,7 +24,7 @@ shootType: {
          type: WaveEffect
          lifetime: 25
          sizeFrom: 0
-         sizeTo: 72
+         sizeTo: 60
          strokeTo: 0
          colorFrom: 089FEE
          colorTo: 089FEE90
