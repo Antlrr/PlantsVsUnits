@@ -1,5 +1,4 @@
-type: BaseTurret
-hasPower: false
+type: PowerTurret
 name: Starfruit
 description: "Starfruits shoots homing stars in 5 directions"
 rotateSpeed: 3
@@ -16,6 +15,9 @@ shoot: {
 rotateSpeed: 0
 shootY: -1
 shootCone: 360
+consumes: {
+   power: 7.2
+   }
 shootType: {
    sprite: pvu-star-bullet
    homingPower: 0.05
