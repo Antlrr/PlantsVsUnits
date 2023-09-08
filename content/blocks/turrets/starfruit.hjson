@@ -1,4 +1,4 @@
-type: PowerTurret
+type: BaseTurret
 hasPower: false
 name: Starfruit
 description: "Starfruits shoots homing stars in 5 directions"
