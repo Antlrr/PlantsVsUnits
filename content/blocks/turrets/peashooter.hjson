@@ -4,7 +4,7 @@ description: "Peashooters shoot peas at enemies."
 rotateSpeed: 3
 squareSprite: false
 health: 120
-range: 72
+range: 108
 reload: 30
 recoil: 0.8
 consumes: {
@@ -22,7 +22,7 @@ shootType: {
    width: 4
    height: 4
    speed: 1.5
-   lifetime: 48
+   lifetime: 72
    damage: 15
 }
 category: turret
