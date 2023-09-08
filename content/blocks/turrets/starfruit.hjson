@@ -5,20 +5,19 @@ rotateSpeed: 3
 squareSprite: false
 health: 120
 range: 96
-reloadTime: 60
-recoilAmount: 0
-powerUse: 3
-shots: 5
-spread: 72
+reload: 30
+recoil: 0
+shoot: {
+   shots: 5
+   spread: 72
+   }  
 rotateSpeed: 0
-shootLength: 0
 shootCone: 360
 shootType: {
    sprite: pvu-star-bullet
    homingPower: 0.05
    shootEffect: none
    smokeEffect: none
-   ammoUseEffect: none
    type: BasicBulletType
    shrinkX: 0
    shrinkY: 0
