@@ -5,16 +5,15 @@ rotateSpeed: 3
 squareSprite: false
 health: 120
 range: 72
-reloadTime: 60
-recoilAmount: 0.8
-powerUse: 3
-shots: 2
-burstSpacing: 8
-spread: 0
+reload: 60
+recoil: 0.8
+shoot: {
+   shots: 2
+   burstSpacing: 8
+   }
 shootType: {
    shootEffect: none
    smokeEffect: none
-   ammoUseEffect: none
    type: BasicBulletType
    sprite: circle-bullet
    shrinkX: 0
