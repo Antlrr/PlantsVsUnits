@@ -4,12 +4,11 @@ description: "Ice Shrooms temporary immobilizes all enemies in a radius."
 squareSprite: false
 health: 358
 range: 72
-reloadTime: 1
-recoilAmount: 0.8
+reload: 1
+recoil: 0.8
 size: 2 
 rotateSpeed: 0
 shootCone: 360
-shootLength: 0
 shootY: -2
 shootSound: pulseBlast
 consumes: {
@@ -64,14 +63,13 @@ shootType: {
       ]
    }
    smokeEffect: none
-   ammoUseEffect: none
+   despawnEffect: none
    type: BulletType
    speed: 0
    lifetime: 1
    damage: 5
-   width: 78
-   height: 78
-   collidesAir: false
+   splashDamageRadius: 72
+   collides: true
    status: pvu-frozen
    statusDuration: 720
 }
