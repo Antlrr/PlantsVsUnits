@@ -68,7 +68,7 @@ shootType: {
    lifetime: 1
    damage: 0
    splashDamage: 5
-   splashDamageRadius: 80
+   splashDamageRadius: 92
    collidesAir: true
    status: pvu-frozen
    statusDuration: 720
