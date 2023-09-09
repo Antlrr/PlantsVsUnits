@@ -38,6 +38,10 @@ drawer: {
       particleStroke: 0.6
       particleLen: 4
       }
+      {
+      type: DrawFlame
+      flameColor: feffae
+      }
    ]
 }
 outputItem: sun/2
