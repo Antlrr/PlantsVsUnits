@@ -13,19 +13,20 @@ craftEffect: {
        {
        type: ParticleEffect
        region: pvu-sun
-       particles: 2
-       length: 24
-       sizeFrom: 3
-       sizeTo: 2
-       colorFrom: feffae
-       colorTo: feffae00
-       spin: 0.1
-       interp: reverse
+       particles: 1
+       length: 0
+       baseLength: 0
+       sizeFrom: 10
+       sizeTo: 10
+       colorFrom: feffae00
+       colorTo: feffae
+       spin: 0.3
         }
     ]
 }
 updateEffect: {
    type: ParticleEffect
+   lifetime: 24
    line: true
    lenFrom: 0
    lenTo: 4
