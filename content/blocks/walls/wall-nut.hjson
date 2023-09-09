@@ -1,0 +1,7 @@
+type: Wall
+health: 1500
+size: 1
+requirements: [
+   sun/50
+]
+category: defense
