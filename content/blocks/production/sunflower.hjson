@@ -28,11 +28,11 @@ drawer: {
       }
       {
       type: DrawArcSmelt
-      midColor: ffffff
+      midColor: feffae
       flameColor: feffae
       flameRadiusScl: 4
-      circleSpace: 0
-      circleStroke: 0.2
+      circleSpace: 1
+      circleStroke: 1
       flameRad: 0.6
       particles: 20
       particleStroke: 0.6
