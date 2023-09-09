@@ -37,7 +37,7 @@ updateEffect: {
    length: 10
 }
 drawer: {
-   type: drawSmelter
+   type: DrawSmelter
    flameColor: FEFFAE
 }
 outputItem: sun/2
