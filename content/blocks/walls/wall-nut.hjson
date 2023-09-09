@@ -1,6 +1,7 @@
 type: Wall
 health: 1500
 size: 1
+squareSprite: false
 requirements: [
    sun/50
 ]
