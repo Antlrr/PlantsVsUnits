@@ -31,8 +31,8 @@ drawer: {
       midColor: ffffff
       flameColor: feffae
       flameRadiusScl: 1
-      circleSpace: 1
-      circleStroke: 0.8
+      circleSpace: 0
+      circleStroke: 0.2
       flameRad: 0.6
       particles: 20
       particleStroke: 0.6
