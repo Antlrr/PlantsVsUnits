@@ -7,23 +7,7 @@ size: 2
 hasLiquids: true
 liquidCapacity: 32
 craftTime: 42
-craftEffect: {
-    type: MultiEffect
-    effects: [
-       {
-       type: ParticleEffect
-       region: pvu-sun
-       particles: 1
-       length: 0
-       baseLength: 0
-       sizeFrom: 2
-       sizeTo: 4
-       colorFrom: feffae55
-       colorTo: feffae00
-       spin: 3
-        }
-    ]
-}
+craftEffect: none
 updateEffect: {
    type: ParticleEffect
    lifetime: 24
@@ -37,9 +21,17 @@ updateEffect: {
    length: 10
 }
 drawer: {
-   type: DrawSmelter
-   flameColor: FEFFAE
-}
+   type: DrawArcSmelt
+   midColor: ffffff
+   flameColor: feffae
+   flameRadiusScl: 1
+   circleSpace: 1
+   circleStroke: 0.8
+   flameRad: 0.6
+   particles: 20
+   particleStroke: 0.6
+   particleLen: 4
+   }
 outputItem: sun/2
 consumes: {
   power: 0.60
