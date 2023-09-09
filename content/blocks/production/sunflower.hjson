@@ -30,7 +30,7 @@ drawer: {
       type: DrawArcSmelt
       midColor: ffffff
       flameColor: feffae
-      flameRadiusScl: 1
+      flameRadiusScl: 4
       circleSpace: 0
       circleStroke: 0.2
       flameRad: 0.6
