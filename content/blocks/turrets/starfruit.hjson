@@ -21,7 +21,7 @@ consumes: {
    }
 shootType: {
    sprite: pvu-star-bullet
-   drag: 0.08
+   drag: 0.01
    homingPower: 0
    shootEffect: none
    smokeEffect: none
@@ -39,9 +39,10 @@ shootType: {
    fragBullets: 1
    fragBullet: {
       sprite: pvu-star-bullet
-      innacuracy: 1
-      drag: -0.05
-      homingPower: 0.25
+      inaccuracy: 1
+      drag: -0.004
+      homingPower: 0.8
+      homingRange: 12
       shootEffect: none
       smokeEffect: none
       despawnEffect: none
@@ -53,7 +54,7 @@ shootType: {
       width: 10
       height: 10
       speed: 1.5
-      lifetime: 80
+      lifetime: 60
       damage: 15
    }
 }
