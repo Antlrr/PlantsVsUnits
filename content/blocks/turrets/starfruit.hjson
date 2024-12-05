@@ -36,7 +36,6 @@ shootType: {
    speed: 2
    lifetime: 80
    damage: 15
-   }
 }
 category: turret
 requirements: [
