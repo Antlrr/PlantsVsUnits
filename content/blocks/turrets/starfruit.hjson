@@ -6,7 +6,7 @@ rotateSpeed: 3
 squareSprite: false
 health: 320
 range: 120
-reload: 30
+reload: 60
 recoil: 0
 shoot: {
    type: ShootSpread
