@@ -1,5 +1,6 @@
 type: PowerTurret
 name: Starfruit
+size: 2
 description: "Starfruits shoots homing stars in 5 directions"
 rotateSpeed: 3
 squareSprite: false
@@ -20,7 +21,8 @@ consumes: {
    }
 shootType: {
    sprite: pvu-star-bullet
-   homingPower: 0.05
+   drag: 0.08
+   homingPower: 0
    shootEffect: none
    smokeEffect: none
    despawnEffect: none
@@ -34,6 +36,26 @@ shootType: {
    speed: 1.5
    lifetime: 80
    damage: 15
+   fragBullets: 1
+   fragBullet: {
+      sprite: pvu-star-bullet
+      innacuracy: 1
+      drag: -0.05
+      homingPower: 0.25
+      shootEffect: none
+      smokeEffect: none
+      despawnEffect: none
+      type: BasicBulletType
+      shrinkX: 0
+      shrinkY: 0
+      backColor: F0DF26
+      frontColor: F0DF26
+      width: 10
+      height: 10
+      speed: 1.5
+      lifetime: 80
+      damage: 15
+   }
 }
 category: turret
 requirements: [
