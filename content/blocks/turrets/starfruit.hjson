@@ -22,7 +22,7 @@ consumes: {
 shootType: {
    sprite: pvu-star-bullet
    drag: 0.01
-   homingPower: 0.7
+   homingPower: 0.08
    shootEffect: none
    smokeEffect: none
    despawnEffect: none
