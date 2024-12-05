@@ -42,7 +42,7 @@ shootType: {
       inaccuracy: 1
       drag: -0.004
       homingPower: 0.8
-      homingRange: 12
+      homingRange: 80
       shootEffect: none
       smokeEffect: none
       despawnEffect: none
